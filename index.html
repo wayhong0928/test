@@ -19,12 +19,21 @@
       background-color: #eee;
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-around;
       text-align: center;
       margin: auto;
     }
     .item{
-      width:clamp(350px, 100%, 400px);
+      width:clamp(300px, 100%, 380px);
+      margin: 10px;
+    }
+    .shopping-car {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+    }
+    .item img{
+      width: 100%;
     }
   </style>
 </head>
@@ -34,14 +43,26 @@
         <img src="https://picsum.photos/300/200?random=1">
         <h3>title</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, at.</p>
+        <div class="shopping-car">
+          <button class="add-car">加入購物車</button>
+          <span class="now-stock">目前庫存：</span>
+        </div>
       </div>  <div class="item">
         <img src="https://picsum.photos/300/200?random=2">
         <h3>title</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, at.</p>
+        <div class="shopping-car">
+          <button class="add-car">加入購物車</button>
+          <span class="now-stock">目前庫存：</span>
+        </div>
       </div>  <div class="item">
         <img src="https://picsum.photos/300/200?random=3">
         <h3>title</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, at.</p>
+        <div class="shopping-car">
+          <button class="add-car">加入購物車</button>
+          <span class="now-stock">目前庫存：</span>
+        </div>
       </div>
     </div>
 </body>
